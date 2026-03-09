@@ -7,9 +7,24 @@ using namespace std;
 class LinkedList 
 {
     private: 
-
-    public: 
+    class Node
+    {
+        public: 
+        string _data;
+        Node(string str, Node* ptr)
+        {
+            _data = str;
+            _next = ptr;
+        }
+        Node* _next;
+    };
+    Node* _head;
+    Node* _tail; 
+    int numberOfItems; 
     
+    public: 
+
+
 
 };
 
