@@ -29,8 +29,8 @@ void LinkedList::addFront(string str)
     {
         Node* newNode = new Node(str, _head);
         _head = newNode;
-        numberOfItems++;
     }
+    numberOfItems++;
 }
 
 void LinkedList::addBack(string str)
@@ -44,8 +44,8 @@ void LinkedList::addBack(string str)
         Node* newNode = new Node(str, nullptr);
         _tail->_next = newNode;
         _tail = newNode;
-        numberOfItems++;
     }
+    numberOfItems++;
 }
 
 string LinkedList::removeFront()

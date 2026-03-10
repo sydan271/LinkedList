@@ -7,7 +7,6 @@ int main()
     LinkedList ll;
     ll.addFront("Hello");
     ll.addFront("World");
-    ll.addBack("!");
     cout << ll << endl;
     return 0;
 }
